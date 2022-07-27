@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+
+    <link rel="stylesheet" href="{% static './css/reset.css' %}">
+    <link rel="shortcut icon" href="{%static './icon/favicon-16x16.png'%}" type="image/x-icon">
+    <link rel="stylesheet" href="{%static './css/estilo.css'%}">
+    <script src="{% static './js/mobile-navbar.js' %}"></script>
+</head>
+
+<body class="page-model">
+
+    <header class="topo">
+
+        <div class="container">
+
+            <h1>CashToYou</h1>
+
+            <nav>
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/sobre/">Sobre</a></li>
+                    <li><a href="/comofunciona/">Como funciona</a></li>
+                    <li><a href="/perguntas/">Perguntas frequentes</a></li>
+                    <li><a href="/principais-cidades/">Principais cidades</a></li>
+                    <li><a href="/acesso/conta/"><button>Acesso</button></a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="content-page">
+
+        <div class="container">
+
+            <div class="container-about">
+
+                <div class="conteudo-page">
+                    <h2>SOBRE</h2>
+                    <p>O CashToYou foi desenvolvido em 2022 por dois alunos do Ifpe da área de TI, que tiveram a ideia
+                        de criar um site no qual empresas pudessem se cadastrar e criar parcerias. Para que
+                        juntas, tornassem mais prático e rápido a comercialização dos seus produtos e fidelização dos
+                        clientes. Onde a partir da procura e realização do serviço buscado pelo cliente, o mesmo é
+                        cadastrado no portal e tem acesso a sua pontuação adquirida. Ao atingir a pontuação necessária,
+                        o cliente começa a utilizar seu desconto.</p>
+                </div>
+
+                <div class="multimidia">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-6agcaeGcCo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+
+    </main>
+</body>
+
+</html>

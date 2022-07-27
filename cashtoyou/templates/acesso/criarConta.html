@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="{% static './css/reset.css' %}">
+    <link rel="shortcut icon" href="{%static './icon/favicon-16x16.png'%}" type="image/x-icon">
+    <link rel="stylesheet" href="{%static './css/estilo.css'%}">
+    <script src="{% static './js/mobile-navbar.js' %}"></script>
+</head>
+
+
+<body id="home">
+
+    <!--Início/home-->
+    <header class="topo">
+
+        <div class="container">
+
+            <h1>CashToYou</h1>
+
+            <nav>
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/sobre/">Sobre</a></li>
+                    <li><a href="/comofunciona/">Como funciona</a></li>
+                    <li><a href="/perguntas/">Perguntas frequentes</a></li>
+                    <li><a href="/principais-cidades/">Principais cidades</a></li>
+                    <li><a href="/acesso/conta/"><button>Acesso</button></a>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main class="principal">
+
+
+        </header>
+        <section class="form-login">
+            <div class="container">
+
+                <h2>Acesse sua conta</h2>
+                <p>Quem é você?</p>
+<br>
+                <div class="opcoes-cadastro">
+
+                    <a class="link-div" href="/acesso/login-cliente/">
+                        <div class="option-div">
+                            Cliente
+                        </div>
+                    </a>
+<br>
+                    <a class="link-div" href="/acesso/login-empresa/">
+                        <div class="option-div">
+                            Empresa
+                        </div>
+                    </a>
+
+                </div>
+
+                <br><br>
+
+                <a href="/acesso/empresa/"><span class="legenda-form"><strong>Empresa - Novo no sistema? faça seu cadastro!</strong></span></a>
+                
+                <span class="legenda-form"><a href="/acesso/cliente/"><strong>Cliente - Novo no sistema? faça seu cadastro!</strong></a> </span>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    
+
+
+</body>
+
+</html>

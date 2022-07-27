@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas frequentes</title>
+
+    <link rel="stylesheet" href="{% static './css/reset.css' %}">
+    <link rel="shortcut icon" href="{%static './icon/favicon-16x16.png'%}" type="image/x-icon">
+    <link rel="stylesheet" href="{%static './css/estilo.css'%}">
+    <script src="{% static './js/mobile-navbar.js' %}"></script>
+</head>
+
+<body class="page-model">
+
+    <header class="topo">
+
+        <div class="container">
+
+            <h1>CashToYou</h1>
+
+            <nav>
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/sobre/">Sobre</a></li>
+                    <li><a href="/comofunciona/">Como funciona</a></li>
+                    <li><a href="/perguntas/">Perguntas frequentes</a></li>
+                    <li><a href="/principais-cidades/">Principais cidades</a></li>
+                    <li><a href="/acesso/conta/"><button>Acesso</button></a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <!--Perguntas frequentes-->
+    <section id="serviços" class="box-services">
+        <h2>Perguntas frequentes</h2>
+        <hr>
+        <p>Tire aqui algumas de suas dúvidas</p>
+
+        <div class="container">
+
+            <div class="card-services">
+                <p>Qual o objetivo?</p>
+                <hr>
+                <p>O objetivo principal é fidelizar o cliente. De forma que o indivíduo acumule pontos através do sistema, de forma que
+                    ao completar a pontuação desejada, o cliente seja fidelizado e ganhe descontos de até 30%.</p>
+            </div>
+
+            <div class="card-services">
+                <p>Como funciona o programa?</p>
+                <hr>
+                <p>O consumidor deve ser cadastrado a partir da procura do serviço/produto presencial na empresa. A
+                    partir do cadastro o mesmo pode observar seus pontos. O cliente resgata seu desconto quando completa a quantidade de pontos.</p>
+            </div>
+
+            <div class="card-services">
+                <p>O sistema é seguro?</p>
+                <hr>
+                <p>Os dados pessoais de endereçamento são utilizados apenas para processamento e contabilidade
+                    interna. Com relação à segurança no tráfego de
+                    dados, tudo será criptografado com a tecnologia SSL.</p>
+            </div>
+            
+            <div class="card-services">
+                <p>Como faço para utilizar meu desconto?</p>
+                <hr>
+                <p>Após atingir a quantidade de pontos solicitada (05 pontos por grupo empresarial), o cliente deve
+                    entrar em contato e em seguida se dirigir as lojas cadastradas para utilizar seu desconto.
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>

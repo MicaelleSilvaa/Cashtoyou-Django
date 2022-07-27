@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como funciona</title>
+
+    <link rel="stylesheet" href="{% static './css/reset.css' %}">
+    <link rel="shortcut icon" href="{%static './icon/favicon-16x16.png'%}" type="image/x-icon">
+    <link rel="stylesheet" href="{%static './css/estilo.css'%}">
+    <script src="{% static './js/mobile-navbar.js' %}"></script>
+</head>
+
+<body class="page-model">
+
+    <header class="topo">
+
+        <div class="container">
+
+            <h1>CashToYou</h1>
+
+            <nav>
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/sobre/">Sobre</a></li>
+                    <li><a href="/comofunciona/">Como funciona</a></li>
+                    <li><a href="/perguntas/">Perguntas frequentes</a></li>
+                    <li><a href="/principais-cidades/">Principais cidades</a></li>
+                    <li><a href="/acesso/conta/"><button>Acesso</button></a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+    <!--Como funciona-->
+    <main class="content-page">
+
+        <div class="container">
+
+            <div class="container-about">
+
+                <div class="conteudo-page2">
+                    <h2>COMO FUNCIONA</h2>
+                    <p>O sistema fidelidade busca fidelizar o cliente, de forma que quando o cliente busque pelo
+                        serviço/produto de determinada empresa, o mesmo seja direcionado para o cadastro. O sistema
+                        fidelidade é formado por pequenas empresas, agrupadas em cinco por grupo, que estão divididas
+                        por região. A partir do cadastro, a empresa computa os pontos que cada cliente faz e cada
+                        serviço/produto feito garante 01 ponto. O cliente pode acessar o sistema e observar a quantidade
+                        de pontos que ele acumulou em cada grupo, e ao garantir os 05 pontos (sendo 01 de cada empresa
+                        participante do mesmo grupo e região), o cliente ganha o prêmio, sendo este descontos
+                        de até 30%.</p>
+
+                </div>
+
+            </div>
+
+
+    </main>
+
+</body>
+
+</html>

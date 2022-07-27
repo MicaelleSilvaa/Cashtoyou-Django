@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashToYou</title>
+
+    <link rel="stylesheet" href="{% static './css/reset.css' %}">
+    <link rel="shortcut icon" href="{%static './icon/favicon-16x16.png'%}" type="image/x-icon">
+    <link rel="stylesheet" href="{%static './css/estilo.css'%}">
+    <script src="{% static './js/mobile-navbar.js' %}"></script>
+</head>
+
+
+<body id="home">
+
+    <!--Início/home-->
+    <header class="topo">
+
+        <div class="container">
+
+            <h1>CashToYou</h1>
+
+            <nav>
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/sobre/">Sobre</a></li>
+                    <li><a href="/comofunciona/">Como funciona</a></li>
+                    <li><a href="/perguntas/">Perguntas frequentes</a></li>
+                    <li><a href="/principais-cidades/">Principais cidades</a></li>
+                    <li><a href="/acesso/conta/"><button>Acesso</button></a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+    <section class="banner-principal">
+
+        <div class="container">
+
+            <div class="area-info">
+                <h2>O seu melhor programa fidelidade!</h2>
+                <p>Aqui você encontra as empresas cadastradas no sistema, histórico de pontos e descontos disponíveis!</p>
+                <a href="/acesso/conta/"><button> Faça seu cadastro</button></a>
+            </div>
+
+
+            <div class="area-info-img">
+                <img src="{% static './assets/desconto.png' %}">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="banner-principal">
+
+        <div class="container">
+
+            <div class="area-info">
+                <h2>Já imaginou acumular pontos em simples compras do dia a dia e trocá-los por descontos?</h2>
+                <p>Só em nosso sistema você encontra empresas de diversos segmentos, suas compras são
+                    compabilizadas e geram pontos, quando a meta de pontos é obtida você adquire o seu desconto, o CashToYou foi feito para você!</p>
+
+            </div>
+
+
+            <div class="area-info-img2">
+                <img src="{% static './assets/nome2.png' %}">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Sobre-->
+    <section id="sobre" class="area-sobre">
+
+        <div class="container">
+
+            <div class="sobre-info-img">
+                <img src=" {% static './assets/desconto.png' %} ">
+            </div>
+
+            <div class="sobre-info">
+
+                <h2>Contato</h2>
+                <p>Telefones</p>
+                <p>81 99705-6165 <br>81 99192-8118</p>
+                <p>Email: contato@cashtoyou.com.br</p>
+                <p>Email: ouvidoria@cashtoyou.com.br</p>
+            </div>
+            <div class="extras">Nossas redes sociais
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="{%static './assets/FACE.png' %}" /></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="{%static './assets/INSTA.png' %}" /></a>
+                    <a href="https://twitter.com/login?lang=pt" target="_blank"><img src="{%static './assets/TWITTER.png' %}" /></a>
+                </div>
+            </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
